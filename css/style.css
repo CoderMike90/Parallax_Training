@@ -1,0 +1,73 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'Bellefair', 'Arial' serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #666;
+}
+
+.parallax-img-first, .parallax-img-seccond, .parallax-img-third, .parallax-img-fourth {
+  position: relative;
+  opacity: 0.60;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.parallax-img-first {
+  background-image: url('../images/img1.jpeg');
+  min-height: 100%;
+}
+
+.parallax-img-seccond {
+  background-image: url('../images/img2.jpeg');
+  min-height: 400px;
+}
+
+.parallax-img-third {
+  background-image: url('../images/img3.jpeg');
+  min-height: 400px;
+}
+
+.parallax-img-fourth {
+  background-image: url('../images/img4.jpeg');
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #FFF4E6;
+  color: #3C2F2F;
+}
+
+.section-dark {
+  background-color: #3C2F2F;
+  color: #FFF4E6;
+}
+
+.parralax-text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.square {
+  background-color: #854442;
+  border: #3C2F2F 4px solid;
+  font-weight: 700;
+  color: #FFF4E6;
+  padding: 30px;
+  display: inline-block;
+}
